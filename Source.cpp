@@ -59,7 +59,7 @@ int main()
 
 void moveTortoise(int* tortoisePtr)
 {
-	int x = 1 + rand() % 10;
+	int x = 1 + rand() % 10; //generate random value
 
 	if (x <= 1 && x <= 5) //fast pod
 	{
@@ -84,7 +84,7 @@ void moveTortoise(int* tortoisePtr)
 
 void moveHare(int* harePtr)
 {
-	int y = 1 + rand() % 10;
+	int y = 1 + rand() % 10; //generate random value
 
 	if (y >= 1 && y <= 2) //sleep
 	{
